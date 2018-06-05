@@ -1,0 +1,17 @@
+{
+    "name": "o.gutovskaja/alphabet",
+    "authors": [
+        {
+            "name": "Gutowski",
+            "email": "info@gutowski.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "engine",
+            "App\\": "app",
+            "Engine\\DI\\": "engine/di"
+        }
+    }
+}

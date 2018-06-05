@@ -1,0 +1,3 @@
+<?php
+
+Asset::css('style');

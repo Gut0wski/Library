@@ -1,0 +1,56 @@
+html,
+body {
+    background: url("../img/bg.jpg");
+}
+
+main {
+    padding: 0 !important;
+}
+
+main nav > .navbar-text {
+    color: #fff !important;
+}
+
+main nav > .collapse ul li a {
+    color: #0186ba !important;
+}
+
+main nav > .collapse ul li a:hover {
+    color: #1ca962 !important;
+}
+
+main section.content {
+    padding: 20px;
+    font-size: 11pt;
+}
+
+/* Таблицы */
+main section.content table {
+    border: solid #ccc 2px;
+}
+
+main section.content table th {
+    text-align: center;
+    background-color: #bcbcbc;
+    padding: 2px;
+}
+
+main section.content table tbody tr:hover {
+    background-color: #e8e8e8 !important;
+    cursor: pointer;
+}
+
+main section.content table tbody td {
+    padding: 0 5px 0 5px;
+}
+
+/* Формы */
+main section.content form .form-group input[type="text"],
+main section.content form .form-group select {
+    height: 25px !important;
+    padding: 0 5px;
+}
+
+main section.content form .form-group select[multiple] {
+    height: 112px !important;
+}
